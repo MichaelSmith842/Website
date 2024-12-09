@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
+  <title>Michael Smith - Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -20,8 +20,8 @@
 
   <main>
     <section id="about">
-      <h1>Hi, I'm [Your Name]</h1>
-      <p>A creative [Your Role] passionate about [Your Interests].</p>
+      <h1>Hi, I'm Michael Smith</h1>
+      <p>Your bio goes here.</p>
     </section>
 
     <section id="skills">
@@ -30,7 +30,6 @@
         <li>JavaScript</li>
         <li>Python</li>
         <li>Cybersecurity</li>
-        <!-- Add more skills -->
       </ul>
     </section>
 
@@ -38,20 +37,35 @@
       <h2>Projects</h2>
       <div class="project">
         <h3>Project Name</h3>
-        <p>Description of your project.</p>
-        <a href="link-to-project">View Project</a>
+        <p>Description of the project.</p>
+        <a href="link" target="_blank">View Project</a>
+        <section id="timeline">
+            <h2>Interactive Timeline</h2>
+            <div class="timeline-container">
+              <input type="range" id="timeline-slider" min="0" max="4" step="1" value="0">
+              <div class="timeline-content">
+                <img id="timeline-image" src="images/image1.jpg" alt="Timeline Event">
+                <div class="timeline-description">
+                  <h3 id="timeline-title">Event 1</h3>
+                  <p id="timeline-text">Description for Event 1.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
       </div>
       <!-- Add more projects -->
     </section>
 
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>Email: <a href="mailto:msmith8420@gmail.com">msmith8420@gmail.com</a></p>
+      <p>Phone: 508-942-2354</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    <p>&copy; 2024 Michael Smith. All rights reserved.</p>
   </footer>
 
   <script src="js/script.js"></script>
